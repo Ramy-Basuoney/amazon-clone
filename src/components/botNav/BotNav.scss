@@ -1,0 +1,46 @@
+.nav {
+  padding: 0 2rem;
+  height: 4rem;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__right {
+    display: flex;
+    align-items: center;
+
+    .list {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      li {
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+        .menu-icon {
+          font-size: 2.2rem;
+          color: white;
+          margin-right: 0.5rem;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 1.4rem;
+          font-weight: 500;
+          &:first-child {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  &__left {
+    p {
+      cursor: pointer;
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+}
