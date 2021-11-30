@@ -1,11 +1,13 @@
 import React from "react";
-import Slider from "../../components/slider/Slider";
+import Categories from "../../components/categories/Categories";
+import Slides from "../../components/slider/Slides";
 import "./HomeScreen.scss";
 
 const HomeScreen = () => {
   return (
     <div className="home-screen">
-      <Slider />
+      <Slides />
+      <Categories />
     </div>
   );
 };
